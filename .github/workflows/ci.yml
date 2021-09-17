@@ -13,10 +13,7 @@ jobs:
 
     steps:
     - name: compile
-      run: 
-        git clone git@github.com:filipponova/calculator.git
-        cd calculator
-        make all
+      run: git clone git@github.com:filipponova/calculator.git && cd calculator && make all
     - name: make run
       run: make run
     - name: clean
