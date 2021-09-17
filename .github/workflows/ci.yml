@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - name: compile
-      run: make
+      run: make all
     - name: make run
       run: make run
     - name: clean
-      run: rm -rf bin/main
+      run: make clean
