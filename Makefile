@@ -1,5 +1,4 @@
 all:
-	rm -f src/main
 	gcc -o bin/main src/main.c
 
 run:
