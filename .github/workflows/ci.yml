@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - name: compile
-      run: cd calculator && make
+      run: make
     - name: make run
-      run: cd calculator && make run
+      run: make run
     - name: clean
-      run: cd calculator && rm -rf bin/main
+      run: rm -rf bin/main
